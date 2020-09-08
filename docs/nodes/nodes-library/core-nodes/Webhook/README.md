@@ -11,6 +11,7 @@ While building or testing a workflow, we recommend that you use a test webhook U
 ::: tip 💡 Keep in mind
 1. When using the Webhook node on the localhost, ensure that n8n is running with the [tunnel](../../../../getting-started/quickstart.md#start-with-tunnel) mode.
 2. When working with a Production webhook, please ensure that you have saved and activated the workflow. Don’t forget that the data flowing through the webhook won’t be visible in the Editor UI with the Production webhook.
+3. The default url for the webook is yourdomain/webhook/{path}.
 :::
 
 
